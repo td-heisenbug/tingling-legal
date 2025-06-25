@@ -43,5 +43,5 @@ We do our best to ensure the app is reliable and safe. However, we are not liabl
 
 For issues, feature requests, or refund concerns, please contact:
 
-**Email**: support@tinglingapp.com
+**Email**: tdheisenbug@gmail.com
 
