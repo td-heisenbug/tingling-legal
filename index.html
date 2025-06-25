@@ -1,30 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Tingling Legal</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tingling App – Legal & Roadmap</title>
   <style>
     body {
-      font-family: system-ui, sans-serif;
-      max-width: 600px;
-      margin: 40px auto;
-      padding: 20px;
-      background: #f9f9f9;
-      color: #333;
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(135deg, #6B46C1 0%, #2D3748 100%);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
     }
-    h1 { color: #6B46C1; }
+
+    .container {
+      max-width: 480px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      border-radius: 24px;
+      padding: 2rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      color: #FBB6CE;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #E2E8F0;
+      margin-bottom: 1.5rem;
+    }
+
     a {
       display: block;
-      margin: 12px 0;
-      color: #2B6CB0;
+      margin: 0.6rem 0;
+      padding: 0.75rem 1rem;
+      background: #9F7AEA;
+      color: white;
       text-decoration: none;
+      border-radius: 12px;
+      transition: background 0.2s ease;
+    }
+
+    a:hover {
+      background: #B794F4;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #A0AEC0;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to Tingling Legal</h1>
-  <p>Here are our legal documents:</p>
-  <a href="privacy-policy.md">📄 Privacy Policy</a>
-  <a href="terms-of-service.md">📄 Terms of Service</a>
+  <div class="container">
+    <h1>Tingling Legal & Roadmap</h1>
+    <p>This app is built with ❤️ for couples. Below are our official policies and plans.</p>
+
+    <a href="privacy-policy.md">📜 Privacy Policy</a>
+    <a href="terms-of-service.md">📜 Terms of Service</a>
+    <a href="roadmap.md">🛣️ Roadmap (v2 Features)</a>
+
+    <footer>
+      Tingling is a paid app. Access remains premium as long as the app is supported.<br>
+      Subject to change only if legally or technically required.
+    </footer>
+  </div>
 </body>
 </html>
